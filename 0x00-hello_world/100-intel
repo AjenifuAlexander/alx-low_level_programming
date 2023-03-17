@@ -1,0 +1,1 @@
+gcc -S -masm=intel $CFILE -f `echo' $CFILE | cut -d, -f1` s
