@@ -14,9 +14,11 @@
 	c = 'a';
 
 	while
-		(c <= 'z') {
+		(c <= 'z') 
+		{
 		       putchar(c);
-		       c++;		}
+		       c++;		
+		}
 	putchar ("\n");
 	Return(0)
 
