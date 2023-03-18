@@ -1,27 +1,21 @@
 #include <stdio.h>
-#include <ctype.h>
 
 /**
- * main - Entry point
+ *main - Entry point
+ *Description: 'Print alphabets lowercase'
+ *Return: Always 0
  *
- *
- * Return: Always 0 (Success)
- *
-*/
+ */
+
 	int main(void)
 {
+	int n = 97;
 
-		int lowerCase = 'a';
-
-		while (lowerCase <= 'z')
-		{
-			putchar(lowerCase <= 'z');
-
-			lowerCase += 1;
-		}
-
-		putchar (i);
-	putchar ("\n");
-	Return(0);
-
+	while (n <= 122)
+	{
+		putchar(n);
+		n++;
+	}
+	putchar('\n');
+	return (0);
 }
