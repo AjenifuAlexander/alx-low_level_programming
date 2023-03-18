@@ -14,6 +14,6 @@
 	for (i = "a" ; i <= "z" ; i++)
 		putchar (i);
 	putchar ("\n");
-	Return(0);
+	Return (0);
 
 }
