@@ -3,22 +3,25 @@
 #include <string.h>
 
 /**
+ *main - 'prints the alphabet without q and e'
  *
- * main - 'prints the alphabet without q and e'
- *
- * Return: Always 0 (Success)
+ *Return: Always 0 (Success)
  *
  */
 int main(void)
 {
-	int i;
-	for (1 = 97; i < 123; i++)
+	int n =97;
+
+	while (n <= 122)
 	{
-		if (i != 101 && i != 113)
+		if (n == 101 || n == 113)
 		{
-			putchar(i);
+			n++;
+			continue;
 		}
+		putchar(n);
+		n++;
 	}
 	putchar('\n');
-	Return (0);
+	return (0);
 }
