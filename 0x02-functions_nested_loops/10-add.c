@@ -8,10 +8,8 @@
  */
 int add(int i, int j)
 {
-	int c;
+	int sum = i + j;
 
-	c = i + j;
-
-	_putchar(c);
-	return (c);
+	_putchar(sum);
+	return (sum);
 }
