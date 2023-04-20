@@ -23,12 +23,10 @@ int main(void)
 						{
 							putchar(i + '0');
 							putchar(j + '0');
+							if (k < l && k != l)
 							{
-								if (k < l && k != l)
-								{
-									putchar(k + '0');
-									putchar(j + '0');
-								}
+								putchar(k + '0');
+								putchar(j + '0');
 							}
 						}
 					}
